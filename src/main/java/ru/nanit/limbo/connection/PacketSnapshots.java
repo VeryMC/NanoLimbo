@@ -52,6 +52,7 @@ public final class PacketSnapshots {
     public static PacketSnapshot PACKET_TITLE_LEGACY_SUBTITLE;
     public static PacketSnapshot PACKET_TITLE_LEGACY_TIMES;
 
+
     private PacketSnapshots() { }
 
     public static void initPackets(LimboServer server) {
