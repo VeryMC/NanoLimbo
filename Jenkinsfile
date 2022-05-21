@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       args '-v /root/.m2:/root/.m2'
-      image 'gradle:6.9.2-jdk17'
+      image 'gradle:6.9.2-jdk11'
     }
 
   }
