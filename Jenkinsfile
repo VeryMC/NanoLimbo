@@ -16,7 +16,7 @@ pipeline {
   }
   post {
     always {
-      archiveArtifacts(artifacts: 'target/*.jar', fingerprint: true)
+      archiveArtifacts(artifacts: 'build/libs/*.jar', fingerprint: true)
     }
 
   }
